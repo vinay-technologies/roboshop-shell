@@ -1,3 +1,5 @@
+script_location=$(pwd)
+
 curl -sL https://rpm.nodesource.com/setup_lts.x | bash
 
 yum install nodejs -y
@@ -13,7 +15,7 @@ unzip /tmp/catalogue.zip
 cd /app
 npm install
 
-script_location=$(pwd)
+
 
 cp ${script_location}/files/catalouge.service /etc/systemd/system/catalogue.service
 
