@@ -3,7 +3,7 @@
 ##### Change these values ###
 ZONE_ID="Z0571814H7K68JV1HVQD"
 DOMAIN="jyothielectricals.online"
-SG_NAME="launch-wizard-1"
+SG_NAME="allow-all"
 env=dev
 #############################
 
