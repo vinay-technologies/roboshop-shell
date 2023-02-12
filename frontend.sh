@@ -33,8 +33,8 @@ echo $?
 
 echo -e "\e[35m restart nginx\e[0m"
 
-systemctl restart nginx &>>${LOG}
-echo $?
+#systemctl restart nginx &>>${LOG}
+#echo $?
 
 systemctl enable nginx &>>${LOG}
 echo $?
